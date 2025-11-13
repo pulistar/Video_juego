@@ -1,0 +1,132 @@
+.login-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(rgba(7, 16, 33, 0.9), rgba(0, 0, 0, 0.95));
+  backdrop-filter: blur(6px);
+  z-index: 20;
+  padding: 1.5rem;
+}
+
+.login-card {
+  width: min(420px, 100%);
+  background: rgba(13, 25, 46, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+  color: #f5f7ff;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.login-card h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.login-subtitle {
+  margin: 0;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.login-card label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+}
+
+.login-card input {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 0.75rem 0.9rem;
+  background: rgba(3, 8, 18, 0.65);
+  color: inherit;
+  font-size: 1rem;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.login-card input:focus {
+  outline: none;
+  border-color: #4f9cff;
+  transform: translateY(-1px);
+}
+
+.login-error {
+  background: rgba(255, 64, 64, 0.15);
+  border: 1px solid rgba(255, 64, 64, 0.4);
+  color: #ffb4b4;
+  border-radius: 12px;
+  padding: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.login-primary,
+.login-secondary,
+.login-offline {
+  border: none;
+  border-radius: 999px;
+  padding: 0.85rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.login-primary {
+  background: linear-gradient(120deg, #35a0ff, #7f60ff);
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 10px 25px rgba(68, 128, 255, 0.35);
+}
+
+.login-secondary {
+  background: rgba(255, 255, 255, 0.08);
+  color: #f5f7ff;
+}
+
+.login-offline {
+  border: 1px dashed rgba(255, 255, 255, 0.35);
+  background: transparent;
+  color: #c9d8ff;
+  font-weight: 500;
+}
+
+.login-primary:disabled,
+.login-secondary:disabled,
+.login-offline:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.login-primary:not(:disabled):hover,
+.login-secondary:not(:disabled):hover,
+.login-offline:not(:disabled):hover {
+  transform: translateY(-2px);
+}
+
+.logout-button {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  z-index: 15;
+  transition: background 0.2s ease;
+}
+
+.logout-button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}

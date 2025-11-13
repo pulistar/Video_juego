@@ -1,0 +1,1978 @@
+[
+    {
+        "name": "brick_wall_bricksmallbrown_dm_0_lev1",
+        "x": 38.131378173828125,
+        "y": -0.1139984130859375,
+        "z": 19.819665908813477,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "buildinga_id_1_wallstuccob_dm_0_lev1",
+        "x": 42.1881103515625,
+        "y": -0.07356810569763184,
+        "z": -25.108427047729492,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "buildinga_id_2_tilesplaina_d_0_lev1",
+        "x": 42.1881103515625,
+        "y": -0.07356810569763184,
+        "z": -25.108427047729492,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "buildingb_id_1_wallstuccob_dm_0_lev1",
+        "x": 38.409881591796875,
+        "y": -0.07356429100036621,
+        "z": 4.15344762802124,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "buildingb_id_2_tilesplaina_d_0_lev1",
+        "x": 38.409881591796875,
+        "y": -0.07356429100036621,
+        "z": 4.15344762802124,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "buildingb_id_3_windowdarka_dm_0_lev1",
+        "x": 38.409881591796875,
+        "y": -0.07356429100036621,
+        "z": 4.15344762802124,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "buildingb_id_4_bricksmallbrown_dm_0_lev1",
+        "x": 38.409881591796875,
+        "y": -0.07356429100036621,
+        "z": 4.15344762802124,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "concrete_wall_wallstuccoa_dm_0_lev1",
+        "x": 38.131378173828125,
+        "y": -0.1139984130859375,
+        "z": 19.819665908813477,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerbluea_mobile_containers_mobile_0_lev1",
+        "x": 16.660863876342773,
+        "y": -0.08918190002441406,
+        "z": 50.45637512207031,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerbluea_mobile001_containers_mobile_0_lev1",
+        "x": 24.392885208129883,
+        "y": -0.08918094635009766,
+        "z": 55.94631576538086,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerbluea_mobile002_containers_mobile_0_lev1",
+        "x": 44.611122131347656,
+        "y": -0.08919000625610352,
+        "z": -10.315281867980957,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerbluea_mobile003_containers_mobile_0_lev1",
+        "x": 47.96708679199219,
+        "y": -0.08919072151184082,
+        "z": -16.76675033569336,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerbluea_mobile004_containers_mobile_0_lev1",
+        "x": -20.503623962402344,
+        "y": -0.08918070793151855,
+        "z": 57.96955871582031,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerbluea_mobile005_containers_mobile_0_lev1",
+        "x": 45.61414337158203,
+        "y": -0.08919334411621094,
+        "z": -34.75014114379883,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerbluea_mobile006_containers_mobile_0_lev1",
+        "x": 36.21910095214844,
+        "y": -0.08919382095336914,
+        "z": -39.184932708740234,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerbuilding_blue_containers_mobile_0_lev1",
+        "x": 7.946852207183838,
+        "y": 0.008637979626655579,
+        "z": 19.826074600219727,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerbuilding_red_containers_mobile_0_lev1",
+        "x": 23.436717987060547,
+        "y": -0.07370471954345703,
+        "z": 41.127769470214844,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerbuilding_white_containers_mobile_0_lev1",
+        "x": 47.707210540771484,
+        "y": -0.11399507522583008,
+        "z": 44.38462448120117,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerbuilding_white001_containers_mobile_0_lev1",
+        "x": -38.057525634765625,
+        "y": -0.11399340629577637,
+        "z": 57.514312744140625,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerbuildingstaircase_metaltrim_dm_0_lev1",
+        "x": 34.03354263305664,
+        "y": -0.08632802963256836,
+        "z": 2.685905694961548,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerbuildingstaircase_metaldiamondplated_dm_0_lev1",
+        "x": 34.03354263305664,
+        "y": -0.08632802963256836,
+        "z": 2.685905694961548,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerreda_mobile_containers_mobile_0_lev1",
+        "x": 22.907485961914062,
+        "y": -0.11399435997009277,
+        "z": 50.42841720581055,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerreda_mobile001_containers_mobile_0_lev1",
+        "x": 31.523408889770508,
+        "y": -0.11399340629577637,
+        "z": 56.85402297973633,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerreda_mobile002_containers_mobile_0_lev1",
+        "x": 31.523408889770508,
+        "y": 1.7705634832382202,
+        "z": 56.85402297973633,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerreda_mobile003_containers_mobile_0_lev1",
+        "x": 47.99504852294922,
+        "y": -0.11400246620178223,
+        "z": -10.520126342773438,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerreda_mobile004_containers_mobile_0_lev1",
+        "x": 47.993526458740234,
+        "y": 1.7705553770065308,
+        "z": -4.1559224128723145,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerreda_mobile005_containers_mobile_0_lev1",
+        "x": 44.63908767700195,
+        "y": -0.11400151252746582,
+        "z": -4.068658351898193,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerreda_mobile006_containers_mobile_0_lev1",
+        "x": -10.911502838134766,
+        "y": -0.11399316787719727,
+        "z": 57.6563720703125,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerreda_mobile007_containers_mobile_0_lev1",
+        "x": 45.4093017578125,
+        "y": -0.11400604248046875,
+        "z": -38.13406753540039,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containershedwhite001_containers_mobile_0_lev1",
+        "x": 48.2261848449707,
+        "y": -0.11399984359741211,
+        "z": 9.48598861694336,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containershedwhite002_containers_mobile_0_lev1",
+        "x": 48.2261848449707,
+        "y": -0.1139993667602539,
+        "z": 12.223708152770996,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containershedwhite003_containers_mobile_0_lev1",
+        "x": -0.12575149536132812,
+        "y": -0.11399340629577637,
+        "z": 57.078086853027344,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containershedwhite004_containers_mobile_0_lev1",
+        "x": 2.752115249633789,
+        "y": -0.11399340629577637,
+        "z": 56.59086990356445,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containershedwhite005_containers_mobile_0_lev1",
+        "x": 13.956748962402344,
+        "y": -0.11400508880615234,
+        "z": -30.514951705932617,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerwhitea_mobile_containers_mobile_0_lev1",
+        "x": 29.17340087890625,
+        "y": -0.11399412155151367,
+        "z": 51.44710922241211,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerwhitea_mobile001_containers_mobile_0_lev1",
+        "x": 17.391157150268555,
+        "y": -0.11399340629577637,
+        "z": 56.8939208984375,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerwhitea_mobile002_containers_mobile_0_lev1",
+        "x": 47.95515441894531,
+        "y": -0.11400151252746582,
+        "z": -4.254206657409668,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerwhitea_mobile003_containers_mobile_0_lev1",
+        "x": 47.79423522949219,
+        "y": -0.11400079727172852,
+        "z": 2.197261095046997,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "containerwhitea_mobile004_containers_mobile_0_lev1",
+        "x": 46.99369812011719,
+        "y": 1.777974247932434,
+        "z": -36.40284729003906,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "door_doorsgreen_dm_0_lev1",
+        "x": 38.131378173828125,
+        "y": -0.1139984130859375,
+        "z": 19.819665908813477,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "hummer_army_hummer_top_d_0_lev1",
+        "x": 0.8478517532348633,
+        "y": 0.7257320880889893,
+        "z": 42.76416015625,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb_watertc2_0_lev1",
+        "x": 7.951622486114502,
+        "y": -0.11613321304321289,
+        "z": -1.9525010585784912,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb001_watertc2_0_lev1",
+        "x": -2.4599380493164062,
+        "y": -0.11613321304321289,
+        "z": -1.9525010585784912,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb008_watertc2_0_lev1",
+        "x": -39.879878997802734,
+        "y": -0.1161341667175293,
+        "z": -8.478839874267578,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb009_watertc2_0_lev1",
+        "x": -39.879878997802734,
+        "y": -0.11612820625305176,
+        "z": 35.090545654296875,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb010_watertc2_0_lev1",
+        "x": -29.707561492919922,
+        "y": -0.11612701416015625,
+        "z": 44.976417541503906,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb013_watertc2_0_lev1",
+        "x": 13.710332870483398,
+        "y": -0.11613583564758301,
+        "z": -21.016742706298828,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb014_watertc2_0_lev1",
+        "x": 6.048488616943359,
+        "y": -0.11613583564758301,
+        "z": -21.016742706298828,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb015_watertc2_0_lev1",
+        "x": 14.924834251403809,
+        "y": -0.11612796783447266,
+        "z": 37.90998840332031,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb017_watertc2_0_lev1",
+        "x": 1.076310157775879,
+        "y": -0.11612796783447266,
+        "z": 37.74747085571289,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb018_watertc2_0_lev1",
+        "x": -26.703113555908203,
+        "y": -0.11613154411315918,
+        "z": 11.394471168518066,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb019_watertc2_0_lev1",
+        "x": -16.291553497314453,
+        "y": -0.11613154411315918,
+        "z": 11.3944730758667,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb020_watertc2_0_lev1",
+        "x": -4.604618072509766,
+        "y": -0.11612796783447266,
+        "z": 37.61786651611328,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb021_watertc2_0_lev1",
+        "x": -10.545133590698242,
+        "y": -0.11612701416015625,
+        "z": 44.378379821777344,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb022_watertc2_0_lev1",
+        "x": 1.281005859375,
+        "y": -0.11612582206726074,
+        "z": 53.25596618652344,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb023_watertc2_0_lev1",
+        "x": -28.144668579101562,
+        "y": -0.11612534523010254,
+        "z": 56.52018356323242,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb024_watertc2_0_lev1",
+        "x": 23.943618774414062,
+        "y": -0.11612701416015625,
+        "z": 45.0357551574707,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb025_watertc2_0_lev1",
+        "x": 43.34492492675781,
+        "y": -0.11612677574157715,
+        "z": 46.791297912597656,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb026_watertc2_0_lev1",
+        "x": 44.621673583984375,
+        "y": -0.11612915992736816,
+        "z": 28.771411895751953,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb027_watertc2_0_lev1",
+        "x": 44.621673583984375,
+        "y": -0.11613154411315918,
+        "z": 10.687154769897461,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb028_watertc2_0_lev1",
+        "x": 37.41295623779297,
+        "y": -0.11613345146179199,
+        "z": -3.9259164333343506,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb029_watertc2_0_lev1",
+        "x": 28.3892765045166,
+        "y": -0.1161344051361084,
+        "z": -10.865435600280762,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb030_watertc2_0_lev1",
+        "x": 42.58028030395508,
+        "y": -0.1161353588104248,
+        "z": -18.227567672729492,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb031_watertc2_0_lev1",
+        "x": -34.2288818359375,
+        "y": -0.11613583564758301,
+        "z": -21.711618423461914,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "lightmastb032_watertc2_0_lev1",
+        "x": -42.124088287353516,
+        "y": -0.11612510681152344,
+        "z": 58.563743591308594,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "militalycratea_militarycrate_d_0_lev1",
+        "x": -21.9945068359375,
+        "y": -0.11399412155151367,
+        "z": 51.409976959228516,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "militalycratea001_militarycrate_d_0_lev1",
+        "x": -18.935230255126953,
+        "y": -0.11399412155151367,
+        "z": 51.409976959228516,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "militalycratea002_militarycrate_d_0_lev1",
+        "x": 9.152206420898438,
+        "y": -0.11400508880615234,
+        "z": -30.180479049682617,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "militalycratea003_militarycrate_d_0_lev1",
+        "x": 31.199583053588867,
+        "y": -0.11400389671325684,
+        "z": -21.488191604614258,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "militalycratea004_militarycrate_d_0_lev1",
+        "x": 31.199583053588867,
+        "y": -0.11400437355041504,
+        "z": -24.54746437072754,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "openbuildinga001_id_1_metalcorrugatedb_0_lev1",
+        "x": -20.089168548583984,
+        "y": -0.11399412155151367,
+        "z": 50.66019821166992,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "openbuildinga001_id_2_metalcorrugatedb_0_lev1",
+        "x": -20.089168548583984,
+        "y": -0.11399412155151367,
+        "z": 50.66019821166992,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "openbuildinga001_id_3_metaltrim_dm_0_lev1",
+        "x": -20.089168548583984,
+        "y": -0.11399412155151367,
+        "z": 50.66019821166992,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox_woodbox_dm_0_lev1",
+        "x": -15.968057632446289,
+        "y": -0.07463836669921875,
+        "z": 52.346229553222656,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox001_woodbox_dm_0_lev1",
+        "x": -15.072683334350586,
+        "y": -0.07463860511779785,
+        "z": 51.47998046875,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox002_woodbox_dm_0_lev1",
+        "x": -25.384387969970703,
+        "y": -0.07463860511779785,
+        "z": 50.819881439208984,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox003_woodbox_dm_0_lev1",
+        "x": -24.413497924804688,
+        "y": -0.07463860511779785,
+        "z": 51.14463424682617,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox004_woodbox_dm_0_lev1",
+        "x": -24.970111846923828,
+        "y": 0.7274878025054932,
+        "z": 51.0130615234375,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox005_woodbox_dm_0_lev1",
+        "x": 6.185029983520508,
+        "y": -0.07464957237243652,
+        "z": -31.116727828979492,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox006_woodbox_dm_0_lev1",
+        "x": 5.2896575927734375,
+        "y": -0.07464957237243652,
+        "z": -30.2504825592041,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox007_woodbox_dm_0_lev1",
+        "x": 30.60948944091797,
+        "y": -0.07464790344238281,
+        "z": -18.098308563232422,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox008_woodbox_dm_0_lev1",
+        "x": 30.80266571044922,
+        "y": 0.7274785041809082,
+        "z": -18.512582778930664,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox009_woodbox_dm_0_lev1",
+        "x": 30.934242248535156,
+        "y": -0.07464814186096191,
+        "z": -19.069196701049805,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox010_woodbox_dm_0_lev1",
+        "x": 32.135833740234375,
+        "y": -0.07464909553527832,
+        "z": -27.5146427154541,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox011_woodbox_dm_0_lev1",
+        "x": 31.26958656311035,
+        "y": -0.07464933395385742,
+        "z": -28.41001319885254,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox012_woodbox_dm_0_lev1",
+        "x": 29.74173355102539,
+        "y": -0.07464933395385742,
+        "z": -28.047029495239258,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox013_woodbox_dm_0_lev1",
+        "x": 28.90673065185547,
+        "y": -0.07464933395385742,
+        "z": -28.578460693359375,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox014_woodbox_dm_0_lev1",
+        "x": 29.134319305419922,
+        "y": 0.7222487926483154,
+        "z": -28.256614685058594,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox015_woodbox_dm_0_lev1",
+        "x": -27.044841766357422,
+        "y": -0.07464861869812012,
+        "z": -22.38536834716797,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox016_woodbox_dm_0_lev1",
+        "x": -28.283954620361328,
+        "y": -0.07464861869812012,
+        "z": -22.514450073242188,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox017_woodbox_dm_0_lev1",
+        "x": 40.26604461669922,
+        "y": -0.07464170455932617,
+        "z": 27.450210571289062,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox018_woodbox_dm_0_lev1",
+        "x": 39.635215759277344,
+        "y": 0.7222564220428467,
+        "z": 27.572412490844727,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox019_woodbox_dm_0_lev1",
+        "x": 39.277191162109375,
+        "y": -0.07464170455932617,
+        "z": 27.407480239868164,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox020_woodbox_dm_0_lev1",
+        "x": 36.172264099121094,
+        "y": -0.07464194297790527,
+        "z": 27.265331268310547,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox021_woodbox_dm_0_lev1",
+        "x": 37.25417709350586,
+        "y": -0.07464194297790527,
+        "z": 27.283065795898438,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox022_woodbox_dm_0_lev1",
+        "x": 41.75981521606445,
+        "y": -0.07463860511779785,
+        "z": 51.82993698120117,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox023_woodbox_dm_0_lev1",
+        "x": 41.12898254394531,
+        "y": 0.722259521484375,
+        "z": 51.95214080810547,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox024_woodbox_dm_0_lev1",
+        "x": 40.770965576171875,
+        "y": -0.07463860511779785,
+        "z": 51.78721237182617,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox025_woodbox_dm_0_lev1",
+        "x": 38.74795150756836,
+        "y": -0.07463860511779785,
+        "z": 51.66279220581055,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox026_woodbox_dm_0_lev1",
+        "x": 37.666038513183594,
+        "y": -0.07463860511779785,
+        "z": 51.64505386352539,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox027_woodbox_dm_0_lev1",
+        "x": 39.2169303894043,
+        "y": -0.07463812828063965,
+        "z": 54.69173049926758,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox028_woodbox_dm_0_lev1",
+        "x": -12.26070785522461,
+        "y": 0.16042298078536987,
+        "z": 16.002965927124023,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox029_woodbox_dm_0_lev1",
+        "x": 38.685508728027344,
+        "y": -0.07463812828063965,
+        "z": 55.526737213134766,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox030_woodbox_dm_0_lev1",
+        "x": 37.914520263671875,
+        "y": -0.07464385032653809,
+        "z": 12.589584350585938,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox031_woodbox_dm_0_lev1",
+        "x": 39.666290283203125,
+        "y": -0.07464385032653809,
+        "z": 12.539864540100098,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox032_woodbox_dm_0_lev1",
+        "x": 42.86043167114258,
+        "y": -0.0746457576751709,
+        "z": -2.612297534942627,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox033_woodbox_dm_0_lev1",
+        "x": 42.13702392578125,
+        "y": -1.1788121461868286,
+        "z": -7.213220596313477,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox034_woodbox_dm_0_lev1",
+        "x": 25.651165008544922,
+        "y": -0.0746462345123291,
+        "z": -6.18084192276001,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox035_woodbox_dm_0_lev1",
+        "x": 24.972728729248047,
+        "y": -0.0746464729309082,
+        "z": -6.947531223297119,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox036_woodbox_dm_0_lev1",
+        "x": 25.38898277282715,
+        "y": 0.7274799346923828,
+        "z": -6.555276393890381,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pallettebox037_woodbox_dm_0_lev1",
+        "x": 24.996898651123047,
+        "y": -0.0746467113494873,
+        "z": -9.393796920776367,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pavement_corner_round_in_big_concretefloors0041_5_m_dull_0_lev1",
+        "x": 30.962553024291992,
+        "y": -0.11400151252746582,
+        "z": -4.2425312995910645,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pavement_corner_round_in_big_modular_pavement_old_0_lev1",
+        "x": 30.962553024291992,
+        "y": -0.11400151252746582,
+        "z": -4.2425312995910645,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pavement_corner_round_in_big002_concretefloors0041_5_m_dull_0_l",
+        "x": 31.521303176879883,
+        "y": -0.11399602890014648,
+        "z": 33.7201042175293,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pavement_corner_round_in_big002_modular_pavement_old_0_lev1",
+        "x": 31.521303176879883,
+        "y": -0.11399602890014648,
+        "z": 33.7201042175293,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pavement_corner_round_out_small002_concretefloors0041_5_m_dull_",
+        "x": -42.43943786621094,
+        "y": -0.08991169929504395,
+        "z": -4.522094249725342,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pavement_corner_round_out_small002_modular_pavement_old_0_lev1",
+        "x": -42.43943786621094,
+        "y": -0.08991169929504395,
+        "z": -4.522094249725342,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pavement_corner_round_out_small003_concretefloors0041_5_m_dull_",
+        "x": -42.43943786621094,
+        "y": -0.08990693092346191,
+        "z": 31.13776397705078,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pavement_corner_round_out_small003_modular_pavement_old_0_lev1",
+        "x": -42.43943786621094,
+        "y": -0.08990693092346191,
+        "z": 31.13776397705078,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pavement_corner_sharp_out_big001_modular_pavement_old_0_lev1",
+        "x": 51.773765563964844,
+        "y": -0.11400794982910156,
+        "z": -43.12446594238281,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pavement_corner_sharp_out_big003_modular_pavement_old_0_lev1",
+        "x": -45.92527389526367,
+        "y": -0.11399292945861816,
+        "z": 60.26131057739258,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pavement_corner_sharp_out_big004_modular_pavement_old_0_lev1",
+        "x": 50.96211624145508,
+        "y": -0.11399292945861816,
+        "z": 61.07299041748047,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "pavement_corner_sharp_out_big005_modular_pavement_old_0_lev1",
+        "x": -45.114768981933594,
+        "y": -0.11400818824768066,
+        "z": -43.936119079589844,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "rust_metaltrim_dm_0_lev1",
+        "x": 38.131378173828125,
+        "y": -0.1139984130859375,
+        "z": 19.819665908813477,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "rusty_plating_metalcorrugateda_0_lev1",
+        "x": 38.131378173828125,
+        "y": -0.1139984130859375,
+        "z": 19.819665908813477,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "stuccobuildinga_id_1_wallstuccob_dm_0_lev1",
+        "x": -5.190530776977539,
+        "y": -0.08405518531799316,
+        "z": 50.62040328979492,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "stuccobuildinga_id_2_metalcorrugatedb_0_lev1",
+        "x": -5.190530776977539,
+        "y": -0.08405518531799316,
+        "z": 50.62040328979492,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "stuccobuildinga_id_3_metaltrim_dm_0_lev1",
+        "x": -5.190530776977539,
+        "y": -0.08405518531799316,
+        "z": 50.62040328979492,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "stuccobuildingb_id_2_metalcorrugatedb_0_lev1",
+        "x": 7.548619747161865,
+        "y": -0.10479426383972168,
+        "z": 46.02806091308594,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "stuccobuildingb_id_3_metaltrim_dm_0_lev1",
+        "x": 7.548619747161865,
+        "y": -0.10479426383972168,
+        "z": 46.02806091308594,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "stuccobuildingb_id_4_wallstuccoa_dm_0_lev1",
+        "x": 7.548619747161865,
+        "y": -0.10479426383972168,
+        "z": 46.02806091308594,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "stuccobuildingb_id_5_metalcorrugateda_0_lev1",
+        "x": 7.548619747161865,
+        "y": -0.10479426383972168,
+        "z": 46.02806091308594,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "warehouse_building00_building01_fence_0_lev1",
+        "x": -5.566659927368164,
+        "y": 3.1407060623168945,
+        "z": -27.979312896728516,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "warehouse_building00_building01_2_0_lev1",
+        "x": -5.566659927368164,
+        "y": 3.1407060623168945,
+        "z": -27.979312896728516,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "warehouse_building01_building01_fence_0_lev1",
+        "x": -5.566659927368164,
+        "y": 3.1407060623168945,
+        "z": -27.979312896728516,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "warehouse_building01_building01_2_0_lev1",
+        "x": -5.566659927368164,
+        "y": 3.1407060623168945,
+        "z": -27.979312896728516,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "warehouse_building02_building01_fence_0_lev1",
+        "x": -5.566659927368164,
+        "y": 3.1407060623168945,
+        "z": -27.979312896728516,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "warehouse_building02_building01_2_0_lev1",
+        "x": -5.566659927368164,
+        "y": 3.1407060623168945,
+        "z": -27.979312896728516,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "warehouse_roof_asphalt_plain_big_0_lev1",
+        "x": -0.49055004119873047,
+        "y": 6.090274810791016,
+        "z": -19.377384185791016,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "warehouse_roof_1_asphalt_plain_big_0_lev1",
+        "x": 6.066596984863281,
+        "y": 2.8602101802825928,
+        "z": -34.05031204223633,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "warehouse_roof_2_asphalt_plain_big_0_lev1",
+        "x": -36.56618118286133,
+        "y": 2.8602113723754883,
+        "z": -24.804624557495117,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "warehousebrickb_id_1_bricksmallbrown_dm_0_lev1",
+        "x": 36.179779052734375,
+        "y": -0.11283159255981445,
+        "z": -10.845420837402344,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "warehousebrickb_id_3_wallstuccoa_dm_0_lev1",
+        "x": 36.179779052734375,
+        "y": -0.11283159255981445,
+        "z": -10.845420837402344,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "warehousebrickb_id_4_windowdarka_dm_0_lev1",
+        "x": 36.179779052734375,
+        "y": -0.11283159255981445,
+        "z": -10.845420837402344,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "warehousebrickb_id_8_doorsgreen_dm_0_lev1",
+        "x": 36.179779052734375,
+        "y": -0.11283159255981445,
+        "z": -10.845420837402344,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "warehousebrickc_id_2_windowdarka_dm_0_lev1",
+        "x": 35.55064392089844,
+        "y": -0.08416247367858887,
+        "z": 39.79383087158203,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "warehousebrickc_id_3_wallstuccoa_dm_0_lev1",
+        "x": 35.55064392089844,
+        "y": -0.08416247367858887,
+        "z": 39.79383087158203,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "warehousebrickc_id_4_windowdarka_dm_0_lev1",
+        "x": 35.55064392089844,
+        "y": -0.08416247367858887,
+        "z": 39.79383087158203,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "warehousebrickc_id_5_metaltrim_dm_0_lev1",
+        "x": 35.55064392089844,
+        "y": -0.08416247367858887,
+        "z": 39.79383087158203,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "warehousebrickc_id_6_metalcorrugateda_0_lev1",
+        "x": 35.55064392089844,
+        "y": -0.08416247367858887,
+        "z": 39.79383087158203,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "warehousebrickc_id_8_doorsgreen_dm_0_lev1",
+        "x": 35.55064392089844,
+        "y": -0.08416247367858887,
+        "z": 39.79383087158203,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "watertower_watertowera_dm_0_lev1",
+        "x": -28.048120498657227,
+        "y": -1.9588093757629395,
+        "z": 20.98694610595703,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "windows_windowdarka_dm_0_lev1",
+        "x": 38.131378173828125,
+        "y": -0.1139984130859375,
+        "z": 19.819665908813477,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "windows001_windowdarka_dm_0_lev1",
+        "x": 38.131378173828125,
+        "y": -0.1139984130859375,
+        "z": 19.819665908813477,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue001_plates_0_lev1",
+        "x": -43.46531295776367,
+        "y": -0.07096028327941895,
+        "z": 44.726165771484375,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue002_plates_0_lev1",
+        "x": -43.45162582397461,
+        "y": -0.07096004486083984,
+        "z": 45.754730224609375,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue003_plates_0_lev1",
+        "x": -43.46531295776367,
+        "y": -0.07096004486083984,
+        "z": 46.649993896484375,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue004_plates_0_lev1",
+        "x": -43.45162582397461,
+        "y": -0.07095980644226074,
+        "z": 47.67855453491211,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue005_plates_0_lev1",
+        "x": -43.45162582397461,
+        "y": -0.07095885276794434,
+        "z": 54.01881408691406,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue006_plates_0_lev1",
+        "x": -43.46531295776367,
+        "y": -0.07095909118652344,
+        "z": 52.99025344848633,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue007_plates_0_lev1",
+        "x": -43.45162582397461,
+        "y": -0.07095932960510254,
+        "z": 52.09498977661133,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue008_plates_0_lev1",
+        "x": -43.46531295776367,
+        "y": -0.07095932960510254,
+        "z": 51.066429138183594,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue009_plates_0_lev1",
+        "x": -43.46531295776367,
+        "y": -0.0709688663482666,
+        "z": -19.985048294067383,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue010_plates_0_lev1",
+        "x": -43.45162582397461,
+        "y": -0.0709688663482666,
+        "z": -18.956480026245117,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue011_plates_0_lev1",
+        "x": -43.45162582397461,
+        "y": -0.0709686279296875,
+        "z": -17.03265953063965,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue012_plates_0_lev1",
+        "x": -43.45162582397461,
+        "y": -0.0709676742553711,
+        "z": -10.692399978637695,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue013_plates_0_lev1",
+        "x": -43.46531295776367,
+        "y": -0.0709686279296875,
+        "z": -18.061227798461914,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue014_plates_0_lev1",
+        "x": -43.46531295776367,
+        "y": -0.0709679126739502,
+        "z": -11.720967292785645,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue015_plates_0_lev1",
+        "x": -43.45162582397461,
+        "y": -0.0709679126739502,
+        "z": -12.616220474243164,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue016_plates_0_lev1",
+        "x": -43.46531295776367,
+        "y": -0.0709681510925293,
+        "z": -13.644786834716797,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue017_plates_0_lev1",
+        "x": -43.45162582397461,
+        "y": -0.07096433639526367,
+        "z": 13.364168167114258,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue018_plates_0_lev1",
+        "x": -43.46531295776367,
+        "y": -0.07096481323242188,
+        "z": 10.41178035736084,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue019_plates_0_lev1",
+        "x": -43.45162582397461,
+        "y": -0.07096457481384277,
+        "z": 11.440346717834473,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue020_plates_0_lev1",
+        "x": -43.46531295776367,
+        "y": -0.07096457481384277,
+        "z": 12.335602760314941,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue021_plates_0_lev1",
+        "x": -43.45162582397461,
+        "y": -0.07096362113952637,
+        "z": 19.70442771911621,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue022_plates_0_lev1",
+        "x": -43.45162582397461,
+        "y": -0.07096385955810547,
+        "z": 17.78060531616211,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue023_plates_0_lev1",
+        "x": -43.46531295776367,
+        "y": -0.07096385955810547,
+        "z": 16.752038955688477,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue024_plates_0_lev1",
+        "x": -43.46531295776367,
+        "y": -0.07096362113952637,
+        "z": 18.675861358642578,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue025_plates_0_lev1",
+        "x": 32.7130012512207,
+        "y": -0.07097053527832031,
+        "z": -32.630462646484375,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue026_plates_0_lev1",
+        "x": 33.7415657043457,
+        "y": -0.07097053527832031,
+        "z": -32.64414978027344,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue027_plates_0_lev1",
+        "x": 35.665382385253906,
+        "y": -0.07097053527832031,
+        "z": -32.64414978027344,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plateblue028_plates_0_lev1",
+        "x": 34.636817932128906,
+        "y": -0.07097053527832031,
+        "z": -32.630462646484375,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown001_plates_0_lev1",
+        "x": -43.473960876464844,
+        "y": -0.07096004486083984,
+        "z": 46.34125518798828,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown002_plates_0_lev1",
+        "x": -43.437721252441406,
+        "y": -0.07096028327941895,
+        "z": 45.038509368896484,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown003_plates_0_lev1",
+        "x": -43.437721252441406,
+        "y": -0.07095980644226074,
+        "z": 46.96232604980469,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown004_plates_0_lev1",
+        "x": -43.473960876464844,
+        "y": -0.07095980644226074,
+        "z": 48.26508331298828,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown005_plates_0_lev1",
+        "x": -43.437721252441406,
+        "y": -0.07095932960510254,
+        "z": 51.3787727355957,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown006_plates_0_lev1",
+        "x": -43.473960876464844,
+        "y": -0.07095885276794434,
+        "z": 54.605350494384766,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown007_plates_0_lev1",
+        "x": -43.437721252441406,
+        "y": -0.07095909118652344,
+        "z": 53.30258560180664,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown008_plates_0_lev1",
+        "x": -43.473960876464844,
+        "y": -0.07095909118652344,
+        "z": 52.681522369384766,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown009_plates_0_lev1",
+        "x": -43.473960876464844,
+        "y": -0.0709686279296875,
+        "z": -18.369956970214844,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown010_plates_0_lev1",
+        "x": -43.473960876464844,
+        "y": -0.0709683895111084,
+        "z": -16.446136474609375,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown011_plates_0_lev1",
+        "x": -43.437721252441406,
+        "y": -0.0709688663482666,
+        "z": -19.67270851135254,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown012_plates_0_lev1",
+        "x": -43.473960876464844,
+        "y": -0.0709676742553711,
+        "z": -10.105873107910156,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown013_plates_0_lev1",
+        "x": -43.437721252441406,
+        "y": -0.0709679126739502,
+        "z": -13.332447052001953,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown014_plates_0_lev1",
+        "x": -43.437721252441406,
+        "y": -0.0709686279296875,
+        "z": -17.748889923095703,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown015_plates_0_lev1",
+        "x": -43.437721252441406,
+        "y": -0.0709676742553711,
+        "z": -11.408628463745117,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown016_plates_0_lev1",
+        "x": -43.473960876464844,
+        "y": -0.0709679126739502,
+        "z": -12.029695510864258,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown017_plates_0_lev1",
+        "x": -43.437721252441406,
+        "y": -0.07096481323242188,
+        "z": 10.72411823272705,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown018_plates_0_lev1",
+        "x": -43.473960876464844,
+        "y": -0.07096433639526367,
+        "z": 13.950692176818848,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown019_plates_0_lev1",
+        "x": -43.473960876464844,
+        "y": -0.07096457481384277,
+        "z": 12.026871681213379,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown020_plates_0_lev1",
+        "x": -43.437721252441406,
+        "y": -0.07096457481384277,
+        "z": 12.647940635681152,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown021_plates_0_lev1",
+        "x": -43.473960876464844,
+        "y": -0.07096362113952637,
+        "z": 20.29096031188965,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown022_plates_0_lev1",
+        "x": -43.437721252441406,
+        "y": -0.07096385955810547,
+        "z": 17.064382553100586,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown023_plates_0_lev1",
+        "x": -43.437721252441406,
+        "y": -0.07096362113952637,
+        "z": 18.98819923400879,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown024_plates_0_lev1",
+        "x": -43.473960876464844,
+        "y": -0.07096385955810547,
+        "z": 18.367130279541016,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown025_plates_0_lev1",
+        "x": 35.35304260253906,
+        "y": -0.07097053527832031,
+        "z": -32.61655044555664,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown026_plates_0_lev1",
+        "x": 33.429222106933594,
+        "y": -0.07097053527832031,
+        "z": -32.61655044555664,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "platebrown027_plates_0_lev1",
+        "x": 34.05029296875,
+        "y": -0.07097053527832031,
+        "z": -32.65279769897461,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey001_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.07096004486083984,
+        "z": 46.1019172668457,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey002_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.07096004486083984,
+        "z": 45.40574645996094,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey003_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.07095980644226074,
+        "z": 47.32957077026367,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey004_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.07095980644226074,
+        "z": 48.02574157714844,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey005_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.07095932960510254,
+        "z": 51.74600601196289,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey006_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.07095885276794434,
+        "z": 54.366004943847656,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey007_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.07095909118652344,
+        "z": 53.669830322265625,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey008_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.07095909118652344,
+        "z": 52.442176818847656,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey009_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.0709686279296875,
+        "z": -18.60930061340332,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey010_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.0709686279296875,
+        "z": -17.381649017333984,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey011_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.0709679126739502,
+        "z": -12.9652099609375,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey012_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.0709688663482666,
+        "z": -19.305469512939453,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey013_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.0709676742553711,
+        "z": -10.345216751098633,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey014_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.0709679126739502,
+        "z": -12.269039154052734,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey015_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.0709676742553711,
+        "z": -11.041387557983398,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey016_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.0709683895111084,
+        "z": -16.68548011779785,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey017_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.07096457481384277,
+        "z": 13.015178680419922,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey018_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.07096362113952637,
+        "z": 20.051616668701172,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey019_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.07096362113952637,
+        "z": 19.355443954467773,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey020_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.07096457481384277,
+        "z": 11.787527084350586,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey021_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.07096385955810547,
+        "z": 17.431615829467773,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey022_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.07096481323242188,
+        "z": 11.091357231140137,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey023_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.07096433639526367,
+        "z": 13.711348533630371,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey024_plates_0_lev1",
+        "x": -43.42347717285156,
+        "y": -0.07096385955810547,
+        "z": 18.127784729003906,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey025_plates_0_lev1",
+        "x": 32.365806579589844,
+        "y": -0.07097053527832031,
+        "z": -32.602317810058594,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey026_plates_0_lev1",
+        "x": 34.289634704589844,
+        "y": -0.07097053527832031,
+        "z": -32.602317810058594,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey027_plates_0_lev1",
+        "x": 33.06197738647461,
+        "y": -0.07097053527832031,
+        "z": -32.602317810058594,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "plategrey028_plates_0_lev1",
+        "x": 34.98580551147461,
+        "y": -0.07097053527832031,
+        "z": -32.602317810058594,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "coin.001_lev1",
+        "x": -5.132538318634033,
+        "y": 0.6320253610610962,
+        "z": 15.298830032348633,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "coin.002_lev1",
+        "x": -30.819284439086914,
+        "y": 0.4126381278038025,
+        "z": 7.88487434387207,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "coin.003_lev1",
+        "x": -27.968143463134766,
+        "y": 0.3703175187110901,
+        "z": 34.661354064941406,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "coin.004_lev1",
+        "x": -6.059118747711182,
+        "y": 0.6382763385772705,
+        "z": 42.169612884521484,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "coin.005_lev1",
+        "x": -35.0119743347168,
+        "y": 0.2669064402580261,
+        "z": 53.4770622253418,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "coin.006_lev1",
+        "x": 19.757169723510742,
+        "y": 0.5384769439697266,
+        "z": 12.439023971557617,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "coin.007_lev1",
+        "x": 23.273653030395508,
+        "y": 0.3925914764404297,
+        "z": -24.607458114624023,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "coin.008_lev1",
+        "x": -48.13227462768555,
+        "y": 0.709361732006073,
+        "z": -14.308248519897461,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "coin.009_lev1",
+        "x": 17.608516693115234,
+        "y": 0.5014255046844482,
+        "z": 45.249935150146484,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "coin.010_lev1",
+        "x": -32.93408203125,
+        "y": 0.5959843397140503,
+        "z": -17.32133674621582,
+        "level": 1,
+        "role": "default"
+    }
+]
