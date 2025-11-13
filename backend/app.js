@@ -1,5 +1,11 @@
-const path = require('path')
-require('dotenv').config({ path: path.resolve(__dirname, '.env') })
+require('dotenv').config()
+
+// Debug: verificar variables de entorno
+console.log('🔍 Variables de entorno:')
+console.log('PORT:', process.env.PORT)
+console.log('MONGO_URI:', process.env.MONGO_URI ? '✅ Configurado' : '❌ No configurado')
+console.log('JWT_SECRET:', process.env.JWT_SECRET ? '✅ Configurado' : '❌ No configurado')
+
 const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors')

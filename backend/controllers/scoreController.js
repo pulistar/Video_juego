@@ -18,6 +18,9 @@ const buildLeaderboard = async (limit = 10) => {
 
 exports.createScore = async (req, res) => {
   try {
+    console.log('📥 Recibiendo score:', req.body)
+    console.log('👤 Usuario:', req.user?.username)
+    
     const { points, durationSeconds, level } = req.body
 
     if (
@@ -25,6 +28,7 @@ exports.createScore = async (req, res) => {
       typeof durationSeconds !== 'number' ||
       typeof level !== 'number'
     ) {
+      console.log('❌ Datos inválidos:', { points, durationSeconds, level })
       return res.status(400).json({ message: 'Datos de puntaje inválidos' })
     }
 
