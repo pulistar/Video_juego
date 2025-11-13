@@ -70,9 +70,15 @@ const LoginOverlay = ({ onSuccess, onOfflinePlay }) => {
 
   return (
     <div className="login-overlay">
-      <form className="login-card" onSubmit={handleSubmit}>
-        <h1>{title}</h1>
-        <p className="login-subtitle">Necesitas identificarte para sincronizar tu progreso.</p>
+      <div className="login-card">
+        <h1>{mode === 'login' ? 'Access' : 'Register'}</h1>
+        <p className="login-subtitle">
+          {mode === 'login'
+            ? '🎮 Enter the Digital Realm'
+            : '🚀 Join the Cyber Adventure'}
+        </p>
+
+        <form onSubmit={handleSubmit}>
 
         {mode === 'login' ? (
           <label>
@@ -82,7 +88,7 @@ const LoginOverlay = ({ onSuccess, onOfflinePlay }) => {
               type="text"
               value={form.identifier}
               onChange={handleChange}
-              placeholder="robotMaster o robot@juego.com"
+              placeholder="cyberUser or user@matrix.net"
               autoComplete="username"
               disabled={loading}
             />
@@ -96,7 +102,7 @@ const LoginOverlay = ({ onSuccess, onOfflinePlay }) => {
                 type="text"
                 value={form.username}
                 onChange={handleChange}
-                placeholder="robotMaster"
+                placeholder="CyberWarrior"
                 autoComplete="off"
                 disabled={loading}
               />
@@ -108,7 +114,7 @@ const LoginOverlay = ({ onSuccess, onOfflinePlay }) => {
                 type="email"
                 value={form.email}
                 onChange={handleChange}
-                placeholder="robot@juego.com"
+                placeholder="warrior@cybernet.io"
                 autoComplete="email"
                 disabled={loading}
               />
@@ -123,7 +129,7 @@ const LoginOverlay = ({ onSuccess, onOfflinePlay }) => {
             type="password"
             value={form.password}
             onChange={handleChange}
-            placeholder="********"
+            placeholder="••••••••"
             autoComplete={mode === 'login' ? 'current-password' : 'new-password'}
             disabled={loading}
           />
@@ -144,7 +150,8 @@ const LoginOverlay = ({ onSuccess, onOfflinePlay }) => {
             Jugar offline
           </button>
         )}
-      </form>
+        </form>
+      </div>
     </div>
   )
 }

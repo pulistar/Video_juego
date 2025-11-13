@@ -45,14 +45,22 @@ export default class GameTracker {
   }
 
   async recordRun({ durationSeconds, points, level }) {
+    console.log('🎯 GameTracker.recordRun llamado:', { durationSeconds, points, level })
+    
     const hasToken = Boolean(getAuthToken())
+    console.log('🔑 Token disponible:', hasToken)
+    
     if (!hasToken) {
+      console.log('⚠️ Sin token, guardando localmente')
       this._updateLocalTimes(durationSeconds)
       return
     }
 
     try {
+      console.log('📤 Enviando score al servidor...')
       const payload = await submitScore({ durationSeconds, points, level })
+      console.log('✅ Score guardado exitosamente:', payload)
+      
       if (Array.isArray(payload?.leaderboard)) {
         this.leaderboard = payload.leaderboard
         window.dispatchEvent(
@@ -60,7 +68,7 @@ export default class GameTracker {
         )
       }
     } catch (error) {
-      console.warn('No se pudo guardar el puntaje remoto', error)
+      console.error('❌ Error guardando puntaje remoto:', error)
       this._updateLocalTimes(durationSeconds)
     }
   }

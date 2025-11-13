@@ -16,7 +16,7 @@ module.exports = async function authRequired(req, res, next) {
     }
 
     const payload = jwt.verify(token, secret)
-    const user = await User.findById(payload.sub)
+    const user = await User.findById(payload.userId)
 
     if (!user) {
       return res.status(401).json({ message: 'Usuario no encontrado' })

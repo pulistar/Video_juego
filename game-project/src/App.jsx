@@ -79,11 +79,15 @@ const App = () => {
   }
 
   const handleLogout = () => {
-    clearStoredAuth()
-    setAuth(null)
-    setLeaderboard([])
-    setOfflineMode(false)
-    window.location.reload()
+    const confirmed = window.confirm('¿Estás seguro de que quieres cerrar sesión?\n\nPerderás el progreso actual del juego.')
+    
+    if (confirmed) {
+      clearStoredAuth()
+      setAuth(null)
+      setLeaderboard([])
+      setOfflineMode(false)
+      window.location.reload()
+    }
   }
 
   const handleOfflinePlay = () => {
@@ -109,7 +113,7 @@ const App = () => {
             </div>
           )}
           <button className="logout-button" type="button" onClick={handleLogout}>
-            Cerrar sesion
+            👤 {auth?.user?.username || 'Usuario'} | 🚪 Salir
           </button>
           {canShowLeaderboard && (
             <LeaderboardPanel

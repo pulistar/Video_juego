@@ -11,14 +11,12 @@ import BlockPrefab from './BlockPrefab.js'
 import FinalPrizeParticles from '../Utils/FinalPrizeParticles.js'
 import Enemy from './Enemy.js'
 import Prize from './Prize.js'
+import { fetchCoinCount } from '../../api/blocks.js'
 
 // ===== Ajustes de recogida de monedas =====
 const PICKUP_RADIUS = 2.0      
 const SPEED_MIN = 0.05         
-const REQUIRE_MOVEMENT = false 
-
-// Objetivo de monedas para mostrar el portal
-const COINS_TO_SPAWN_PORTAL = 10
+const REQUIRE_MOVEMENT = false
 
 export default class World {
   constructor(experience) {
@@ -29,6 +27,7 @@ export default class World {
     this.levelManager = new LevelManager(this.experience)
     this.finalPrizeActivated = false
     this.gameStarted = false
+    this.coinsToSpawnPortal = 10 // Valor por defecto, se actualizará dinámicamente
     this.enemies = []
 
     this.coinSound = new Sound('/sounds/coin.ogg')
@@ -347,28 +346,32 @@ export default class World {
         if (prize.role === "default") {
           this.points = (this.points || 0) + 1
           this.robot.points = this.points
-          console.log(`🎯 Monedas recolectadas: ${this.points} / ${COINS_TO_SPAWN_PORTAL}`)
+          console.log(`🎯 Monedas recolectadas: ${this.points} / ${this.coinsToSpawnPortal}`)
 
-          // Cuando llegue a 10 monedas, creamos el portal (si aún no fue creado)
-          if (!this.finalPrizeActivated && this.points >= COINS_TO_SPAWN_PORTAL) {
+          // Cuando llegue a la cantidad requerida de monedas, creamos el portal (si aún no fue creado)
+          if (!this.finalPrizeActivated && this.points >= this.coinsToSpawnPortal) {
             this.spawnFinalPortal(new THREE.Vector3(0, 2.0, 0)) // centro "del mundo" - elevado
           }
         }
 
         if (prize.role === "finalPrize") {
           // Portal recogido → pasar de nivel
+          const elapsed = this.experience.tracker.getElapsedSeconds()
+          
+          // Guardar puntuación del nivel completado
+          this.experience.tracker.recordRun({
+            durationSeconds: elapsed,
+            points: this.points,
+            level: this.levelManager.currentLevel
+          })
+          
           if (this.levelManager.currentLevel < this.levelManager.totalLevels) {
             this.levelManager.nextLevel()
             this.points = 0
             this.robot.points = 0
           } else {
             // Fin del juego
-            const elapsed = this.experience.tracker.stop()
-            this.experience.tracker.recordRun({
-              durationSeconds: elapsed,
-              points: this.points,
-              level: this.levelManager.currentLevel
-            })
+            this.experience.tracker.stop()
             this.experience.tracker.showEndGameModal(elapsed)
 
             this.experience.obstacleWavesDisabled = true
@@ -429,8 +432,24 @@ export default class World {
     })
   }
 
+  // Función para cargar la cantidad de monedas dinámicamente
+  async loadCoinCount(level) {
+    try {
+      console.log(`🪙 Cargando cantidad de monedas para nivel ${level}`)
+      const coinData = await fetchCoinCount(level)
+      this.coinsToSpawnPortal = coinData.coinCount || 10 // fallback a 10
+      console.log(`🎯 Nivel ${level}: Se necesitan ${this.coinsToSpawnPortal} monedas para el portal`)
+    } catch (error) {
+      console.warn(`⚠️ No se pudo obtener cantidad de monedas del servidor, usando valor por defecto (10)`)
+      this.coinsToSpawnPortal = 10
+    }
+  }
+
   async loadLevel(level) {
     try {
+      // Cargar cantidad de monedas dinámicamente
+      await this.loadCoinCount(level)
+      
       const backendUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:3001'
       const apiUrl = `${backendUrl}/api/blocks?level=${level}`
 

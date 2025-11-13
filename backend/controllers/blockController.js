@@ -1,5 +1,18 @@
 const Block = require('../models/Block')
 
+// Función helper para identificar si un bloque es una moneda
+const isCoinBlock = (blockName) => {
+  if (!blockName || typeof blockName !== 'string') return false
+  const name = blockName.toLowerCase()
+  return (
+    name.startsWith('coin') ||
+    name.includes('coinobj') ||
+    name.includes('coin_') ||
+    name.includes('_coin') ||
+    name.includes(' coin')
+  )
+}
+
 exports.getBlocks = async (req, res) => {
     try {
         const level = parseInt(req.query.level) || 1;
@@ -9,6 +22,31 @@ exports.getBlocks = async (req, res) => {
         res.json(blocks);
     } catch (error) {
         res.status(500).json({ message: 'Error al obtener bloques', error });
+    }
+}
+
+// Nuevo endpoint para contar monedas por nivel
+exports.getCoinCount = async (req, res) => {
+    try {
+        const level = parseInt(req.query.level) || 1
+        console.log(`🪙 Contando monedas para nivel ${level}`)
+
+        // Obtener todos los bloques del nivel
+        const blocks = await Block.find({ level: level }).select('name -_id')
+        
+        // Contar cuántos son monedas
+        const coinCount = blocks.filter(block => isCoinBlock(block.name)).length
+        
+        console.log(`🪙 Nivel ${level}: ${coinCount} monedas encontradas`)
+        
+        res.json({ 
+            level: level,
+            coinCount: coinCount,
+            totalBlocks: blocks.length
+        })
+    } catch (error) {
+        console.error('Error contando monedas:', error)
+        res.status(500).json({ message: 'Error al contar monedas', error })
     }
 };
 

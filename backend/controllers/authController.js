@@ -10,7 +10,7 @@ const buildToken = (userId) => {
     throw new Error('JWT_SECRET is not configured')
   }
 
-  return jwt.sign({ sub: userId }, secret, { expiresIn: TOKEN_EXPIRATION })
+  return jwt.sign({ userId: userId.toString() }, secret, { expiresIn: TOKEN_EXPIRATION })
 }
 
 exports.register = async (req, res) => {
