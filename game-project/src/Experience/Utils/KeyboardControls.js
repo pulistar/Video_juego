@@ -11,7 +11,8 @@ export default class KeyboardControls extends EventEmitter {
             right: false,
             space: false,
             shift: false,
-            attack: false
+            attack: false,
+            reset: false
         }
 
         this.setListeners()
@@ -26,6 +27,7 @@ export default class KeyboardControls extends EventEmitter {
             if (event.code === 'Space') this.keys.space = true
             if (event.key === 'Shift') this.keys.shift = true
             if (event.key.toLowerCase() === 'k') this.keys.attack = true
+            if (event.key.toLowerCase() === 'r') this.keys.reset = true
             this.trigger('change', this.keys)
         })
 
@@ -37,6 +39,7 @@ export default class KeyboardControls extends EventEmitter {
             if (event.code === 'Space') this.keys.space = false
             if (event.key === 'Shift') this.keys.shift = false
             if (event.key.toLowerCase() === 'k') this.keys.attack = false
+            if (event.key.toLowerCase() === 'r') this.keys.reset = false
             this.trigger('change', this.keys)
         })
     }

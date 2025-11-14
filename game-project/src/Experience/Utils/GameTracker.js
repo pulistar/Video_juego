@@ -11,6 +11,12 @@ export default class GameTracker {
     this.finished = false
     this.leaderboard = []
     this.localBestTimes = this._readLocalTimes()
+    
+    // Sistema de puntuación acumulativa por sesión
+    this.sessionPoints = 0
+    this.sessionStartTime = null
+    this.maxLevelReached = 0
+    this.isSessionActive = false
   }
 
   start() {
@@ -22,6 +28,58 @@ export default class GameTracker {
     this.endTime = Date.now()
     this.finished = true
     return this.getElapsedSeconds()
+  }
+
+  // Iniciar nueva sesión de juego
+  startSession() {
+    console.log('🎮 Iniciando nueva sesión de juego')
+    this.sessionPoints = 0
+    this.sessionStartTime = Date.now()
+    this.maxLevelReached = 1
+    this.isSessionActive = true
+  }
+
+  // Agregar puntos a la sesión actual
+  addSessionPoints(points, level) {
+    if (!this.isSessionActive) {
+      this.startSession()
+    }
+    
+    this.sessionPoints += points
+    this.maxLevelReached = Math.max(this.maxLevelReached, level)
+    
+    console.log(`🪙 +${points} puntos | Total sesión: ${this.sessionPoints} | Nivel máximo: ${this.maxLevelReached}`)
+  }
+
+  // Finalizar sesión (cuando el jugador muere o termina)
+  async endSession() {
+    if (!this.isSessionActive || this.sessionPoints === 0) {
+      console.log('⚠️ No hay sesión activa o sin puntos para guardar')
+      return
+    }
+
+    const sessionDuration = Math.floor((Date.now() - this.sessionStartTime) / 1000)
+    
+    console.log('🏁 Finalizando sesión:', {
+      points: this.sessionPoints,
+      duration: sessionDuration,
+      maxLevel: this.maxLevelReached
+    })
+
+    // Guardar la sesión completa
+    await this.recordRun({
+      durationSeconds: sessionDuration,
+      points: this.sessionPoints,
+      level: this.maxLevelReached,
+      maxLevelReached: this.maxLevelReached,
+      sessionType: this.maxLevelReached >= 3 ? 'completed' : 'died'
+    })
+
+    // Resetear sesión
+    this.sessionPoints = 0
+    this.sessionStartTime = null
+    this.maxLevelReached = 0
+    this.isSessionActive = false
   }
 
   getElapsedSeconds() {

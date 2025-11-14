@@ -21,7 +21,7 @@ exports.createScore = async (req, res) => {
     console.log('📥 Recibiendo score:', req.body)
     console.log('👤 Usuario:', req.user?.username)
     
-    const { points, durationSeconds, level } = req.body
+    const { points, durationSeconds, level, maxLevelReached, sessionType } = req.body
 
     if (
       typeof points !== 'number' ||
@@ -37,8 +37,12 @@ exports.createScore = async (req, res) => {
       username: req.user.username,
       points: Math.max(0, Math.round(points)),
       durationSeconds: Math.max(0, Math.round(durationSeconds)),
-      level: Math.max(1, Math.round(level))
+      level: Math.max(1, Math.round(level)),
+      maxLevelReached: maxLevelReached || level,
+      sessionType: sessionType || 'died'
     })
+
+    console.log(`💾 Sesión guardada: ${req.user.username} - ${points} pts - Nivel máximo: ${maxLevelReached || level} - Tipo: ${sessionType || 'died'}`)
 
     const leaderboard = await buildLeaderboard()
 
