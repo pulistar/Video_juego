@@ -57,8 +57,16 @@ const App = () => {
     setLoading(true)
     const experience = new Experience(canvasRef.current)
 
+    // Inicializar sesión de juego cuando se carga la experiencia
+    const handleComplete = () => {
+      setLoading(false)
+      // Iniciar nueva sesión cuando el juego esté listo
+      if (experience.tracker) {
+        experience.tracker.startSession()
+      }
+    }
+
     const handleProgress = (event) => setProgress(event.detail)
-    const handleComplete = () => setLoading(false)
 
     window.addEventListener('resource-progress', handleProgress)
     window.addEventListener('resource-complete', handleComplete)

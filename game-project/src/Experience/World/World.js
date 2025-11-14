@@ -271,6 +271,14 @@ export default class World {
     this.robot?.update()
     this.blockPrefab?.update()
 
+    // Detectar tecla R para simular muerte (para pruebas)
+    if (this.experience.keyboard?.keys?.reset && !this.resetKeyPressed) {
+      this.resetKeyPressed = true
+      this.handlePlayerDeath()
+    } else if (!this.experience.keyboard?.keys?.reset) {
+      this.resetKeyPressed = false
+    }
+
     // Enemigos
     if (this.gameStarted) {
       this.enemies?.forEach(e => e.update(delta))
@@ -295,14 +303,8 @@ export default class World {
           setTimeout(() => enemyMesh.scale.set(1, 1, 1), 500)
         }
 
-        this.experience.modal.show({
-          icon: '💀',
-          message: '¡Has muerto?',
-          buttons: [
-            { text: '🔁 Reintentar', onClick: () => this.experience.resetGameToFirstLevel() },
-            { text: '❌ Salir',      onClick: () => this.experience.resetGame() }
-          ]
-        })
+        // Usar el nuevo sistema de muerte
+        this.handlePlayerDeath()
 
         return
       }
@@ -342,10 +344,14 @@ export default class World {
       if (canPick && !prize.collected) {
         prize.collect()
         prize.collected = true
-
+//monedas
         if (prize.role === "default") {
           this.points = (this.points || 0) + 1
           this.robot.points = this.points
+          
+          // Agregar puntos a la sesión acumulativa
+          this.experience.tracker.addSessionPoints(1, this.levelManager.currentLevel)
+          
           console.log(`🎯 Monedas recolectadas: ${this.points} / ${this.coinsToSpawnPortal}`)
 
           // Cuando llegue a la cantidad requerida de monedas, creamos el portal (si aún no fue creado)
@@ -356,23 +362,21 @@ export default class World {
 
         if (prize.role === "finalPrize") {
           // Portal recogido → pasar de nivel
-          const elapsed = this.experience.tracker.getElapsedSeconds()
-          
-          // Guardar puntuación del nivel completado
-          this.experience.tracker.recordRun({
-            durationSeconds: elapsed,
-            points: this.points,
-            level: this.levelManager.currentLevel
-          })
+          console.log(`🚪 Portal del nivel ${this.levelManager.currentLevel} completado`)
           
           if (this.levelManager.currentLevel < this.levelManager.totalLevels) {
+            // Continuar al siguiente nivel (NO guardar puntuación aún)
             this.levelManager.nextLevel()
-            this.points = 0
+            this.points = 0 // Resetear puntos del nivel, pero mantener sesión activa
             this.robot.points = 0
+            console.log(`➡️ Avanzando al nivel ${this.levelManager.currentLevel}`)
           } else {
-            // Fin del juego
+            // Fin del juego completo - guardar sesión total
+            console.log('🏆 ¡Juego completado! Guardando sesión total...')
+            this.experience.tracker.endSession()
+            
             this.experience.tracker.stop()
-            this.experience.tracker.showEndGameModal(elapsed)
+            this.experience.tracker.showEndGameModal(this.experience.tracker.getElapsedSeconds())
 
             this.experience.obstacleWavesDisabled = true
             clearTimeout(this.experience.obstacleWaveTimeout)
@@ -690,6 +694,35 @@ export default class World {
     this.loader._processBlocks(blocks, preciseModels)
 
     console.log(`🎯 Monedas default en nivel local: ${this.loader.prizes.filter(p => p.role === 'default').length}`)
+  }
+
+  // Método para manejar la muerte del jugador
+  handlePlayerDeath() {
+    console.log('💀 Jugador ha muerto - Finalizando sesión')
+    
+    // Finalizar sesión acumulativa
+    if (this.experience.tracker) {
+      this.experience.tracker.endSession()
+    }
+    
+    // Reiniciar nivel o mostrar game over
+    this.resetToLevel1()
+  }
+
+  // Método para reiniciar al nivel 1
+  resetToLevel1() {
+    console.log('🔄 Reiniciando al nivel 1')
+    
+    // Resetear al nivel 1
+    this.levelManager.currentLevel = 1
+    this.points = 0
+    this.robot.points = 0
+    
+    // Recargar nivel 1
+    this.loadLevel(1)
+    
+    // Reiniciar posición del robot
+    this.resetRobotPosition()
   }
 
   _checkVRMode() {

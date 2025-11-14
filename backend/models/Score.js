@@ -27,6 +27,16 @@ const scoreSchema = new mongoose.Schema(
       type: Number,
       required: true,
       min: 1
+    },
+    maxLevelReached: {
+      type: Number,
+      default: function() { return this.level },
+      min: 1
+    },
+    sessionType: {
+      type: String,
+      enum: ['completed', 'died', 'quit'],
+      default: 'died'
     }
   },
   {
