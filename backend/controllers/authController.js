@@ -2,7 +2,7 @@ const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
 const User = require('../models/User')
 
-const TOKEN_EXPIRATION = '12h'
+const TOKEN_EXPIRATION = '7d' // 7 días en lugar de 12 horas
 
 const buildToken = (userId) => {
   const secret = process.env.JWT_SECRET
