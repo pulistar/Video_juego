@@ -14,7 +14,7 @@ import Prize from './Prize.js'
 import { fetchCoinCount } from '../../api/blocks.js'
 
 // ===== Ajustes de recogida de monedas =====
-const PICKUP_RADIUS = 2.0      
+const PICKUP_RADIUS = 4.0      
 const SPEED_MIN = 0.05         
 const REQUIRE_MOVEMENT = false
 

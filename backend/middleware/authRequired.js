@@ -26,6 +26,22 @@ module.exports = async function authRequired(req, res, next) {
     next()
   } catch (error) {
     console.error('Error autenticando token', error)
-    res.status(401).json({ message: 'Token inválido o expirado' })
+    
+    if (error.name === 'TokenExpiredError') {
+      return res.status(401).json({ 
+        message: 'Token expirado', 
+        code: 'TOKEN_EXPIRED',
+        expiredAt: error.expiredAt 
+      })
+    }
+    
+    if (error.name === 'JsonWebTokenError') {
+      return res.status(401).json({ 
+        message: 'Token inválido', 
+        code: 'TOKEN_INVALID' 
+      })
+    }
+    
+    res.status(401).json({ message: 'Error de autenticación' })
   }
 }
